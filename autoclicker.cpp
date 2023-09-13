@@ -26,15 +26,12 @@ HWND t_sSliderText;
 LRESULT CALLBACK WndProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam);
 
 int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nCmdShow) {
-    // Зарегистрируйте класс окна
 
     const wchar_t* CLASS_NAME = _T("auclicker");
 
     WNDCLASSEX wc = { sizeof(WNDCLASSEX), CS_HREDRAW | CS_VREDRAW, WndProc, 0, 0, GetModuleHandle(NULL), NULL, NULL, NULL, NULL, CLASS_NAME, NULL };
     HICON hIcon = (HICON)LoadImage(NULL, L"autoclicker.ico", IMAGE_ICON, 0, 0, LR_LOADFROMFILE | LR_DEFAULTSIZE);
     RegisterClassEx(&wc);
-
-    // Создайте окно
 
     HWND hWnd = CreateWindowEx(
         0,
