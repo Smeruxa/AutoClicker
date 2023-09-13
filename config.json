@@ -1,0 +1,8 @@
+{
+    "lbutton": true,
+    "own_wait": false,
+    "rbutton": false,
+    "state": true,
+    "wait_lbutton": 30,
+    "wait_rbutton": 20
+}

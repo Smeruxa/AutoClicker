@@ -1,0 +1,7 @@
+﻿  autoclicker.cpp
+D:\C++\autoclicker\autoclicker\autoclicker.cpp(242,39): warning C4244: инициализация: преобразование "LRESULT" в "int", возможна потеря данных
+D:\C++\autoclicker\autoclicker\autoclicker.cpp(259,39): warning C4244: инициализация: преобразование "LRESULT" в "int", возможна потеря данных
+  clicker.cpp
+  Config.cpp
+  Создание кода...
+  autoclicker.vcxproj -> D:\C++\autoclicker\x64\Debug\autoclicker.exe
